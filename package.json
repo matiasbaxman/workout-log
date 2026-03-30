@@ -1,0 +1,27 @@
+{
+  "name": "workout-log",
+  "version": "1.0.0",
+  "description": "App personal para registrar entrenamientos diarios y recuperar constancia física.",
+  "main": "index.js",
+  "scripts": {
+    "dev:css": "tailwindcss -i ./app/styles/styles.css -o ./app/styles/tailwind.css --watch",
+    "build:css": "tailwindcss -i ./app/styles/styles.css -o ./app/styles/tailwind.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasbaxman/workout-log.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/matiasbaxman/workout-log/issues"
+  },
+  "homepage": "https://github.com/matiasbaxman/workout-log#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "daisyui": "^5.5.19",
+    "tailwindcss": "^4.2.2"
+  }
+}
